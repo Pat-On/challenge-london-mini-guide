@@ -1,0 +1,23 @@
+{
+  "name": "challenge-london-mini-guide",
+  "version": "1.0.0",
+  "description": "In this challenge you are going to build a full stack application (server & client) that shows the number of hospitals, doctors, pharmacies and colleges in some London's boroughs.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pat-On/challenge-london-mini-guide.git"
+  },
+  "author": "Dream Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pat-On/challenge-london-mini-guide/issues"
+  },
+  "homepage": "https://github.com/Pat-On/challenge-london-mini-guide#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
