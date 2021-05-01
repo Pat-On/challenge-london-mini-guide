@@ -28,22 +28,6 @@ app.get("/:city/:category", (req, res) => {
   }
 });
 
-// app.get("/:city/colleges", (req, res) => {
-//   res.status(200).json({
-//     data: stratfordData.colleges,
-//   });
-// });
-// app.get("/:city/doctors", (req, res) => {
-//   res.status(200).json({
-//     data: stratfordData.doctors,
-//   });
-// });
-// app.get("/:city/hospitals", (req, res) => {
-//   res.status(200).json({
-//     data: stratfordData.hospitals,
-//   });
-// });
-
 app.listen(PORT, () => {
   console.log(`Server is running on ${PORT}`);
 });
